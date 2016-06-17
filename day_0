@@ -1,3 +1,51 @@
 第一张 基础
 三种抽象数据类型：背包、队列、栈。
 1.3节使用数组、变长数组和链表实现了背包、队列和栈的API。
+
+1.1基础编程模型
+各种java基础知识
+
+1.1.2java数据类型
+    int       32bit
+    short     16bit
+    long      64bit
+    float     32bit
+    doule     64bit
+    char      16bit(因为java中使用的是unicode，C/C++中是8bit)
+    byte      8bit  字节
+    boolean   JAVA编程规范中并未指定大小，在JVM规范中作为32bit进行处理。
+              在java中，只能使用小写true和false，不能使用0、1代替。
+              在C/C++中为8bit，可用0、1代替，类型符号为bool。
+              
+1.1.3语句
+  声明语句
+  赋值语句
+  条件语句    if else
+  循环语句    while for continue break
+  调用和返回语句  和静态方法有关（1.1.6节）
+
+1.1.6静态方法
+  调用：类名.方法名(参数列表);
+  
+  方法参数按值传递
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
