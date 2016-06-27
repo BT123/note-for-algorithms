@@ -32,7 +32,7 @@
    				 }
 
 	 2)Iterator类必须包含两个方法：hasNext()（返回一个布尔值）和next()（返回集合中的下一个泛型元素）。  
-	 	在实现类中的迭代器时要implements Iterator<Item>，其中有hasNext()和next()两个方法。
+	 	在实现类中的迭代器时要implements Iterator<Item>，其中有hasNext()和next()两个方法(remove()一般为空)。
 	 	 	private class ListIterator<Item> implements Iterator<Item> {
         		private Node<Item> current;
 
@@ -69,7 +69,10 @@
 		        private Node<Item> next;
 		    }
 
+在结构化存储数据集时，链表是数组的一种重要的替代方式。
 
-
+两种表示对象集合的方式：数组和链表。顺序存储和链式存储。	
+	数组：顺序存储。通过索引就可以直接访问任意元素。 在初始化时就需要知道元素的数量。
+	链表：链式存储。使用的空间大小和元素数量成正比。 需要通过引用访问任意元素。
 
 
